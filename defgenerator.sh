@@ -7,7 +7,7 @@ crunch 11 11 0123456789 -t $func -o $PWD/$func && cat $func >> mobile && rm -rf 
 else
 echo "!!!Ввод должен быть 11 символов!!!"
 sleep 2
-./generate
+./defgenerator.sh
 fi
 echo "Готово" 
 echo "Результаты в $PWD/mobile" 
